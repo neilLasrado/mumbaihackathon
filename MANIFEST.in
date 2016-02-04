@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mumbaihackathon *.css
+recursive-include mumbaihackathon *.csv
+recursive-include mumbaihackathon *.html
+recursive-include mumbaihackathon *.ico
+recursive-include mumbaihackathon *.js
+recursive-include mumbaihackathon *.json
+recursive-include mumbaihackathon *.md
+recursive-include mumbaihackathon *.png
+recursive-include mumbaihackathon *.py
+recursive-include mumbaihackathon *.svg
+recursive-include mumbaihackathon *.txt
+recursive-exclude mumbaihackathon *.pyc
